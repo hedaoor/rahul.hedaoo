@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Magento\Customer\Controller\Account\EditPost" type="Rahul\PasswordManager\Controller\Account\EditPost" />
+
+	<preference for="Magento\Customer\Controller\Account\ResetPasswordPost" type="Rahul\PasswordManager\Controller\Account\ResetPasswordPost" />
+</config>
